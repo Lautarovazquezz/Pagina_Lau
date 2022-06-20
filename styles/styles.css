@@ -50,8 +50,9 @@
 }
 .ini:hover{
   background-color: #62ee8e;
+  box-shadow: 0 0 10px #62ee8e, 0 0 40px #62ee8e, 0 0 80px #62ee8e;
   color: rgb(99, 44, 44) 
-  
+ 
 }
 /* inicio de la pagina */
 .pag{
