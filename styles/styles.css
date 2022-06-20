@@ -17,7 +17,7 @@
 /* pie de pagina */
 .footer{
   
-    background-color: #dfcf46c0;
+    background-image: linear-gradient(to left, green, yellow);
     padding: 05rem;
     margin: 01rem;
     text-align: center;
