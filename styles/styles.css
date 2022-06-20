@@ -36,7 +36,7 @@
   list-style-type: none;
   font-size: 20px;
   display: flex;
-  justify-content: space-evenly
+  justify-content: space-evenly;
   
 }
 /* barra de navegacion */
@@ -46,6 +46,7 @@
   color: rgb(0, 0, 0);
   font-family: 'Blaka', cursive;
   font-size: 40px;
+  transition: 0.2s;
 }
 .ini:hover{
   background-color: #62ee8e;
