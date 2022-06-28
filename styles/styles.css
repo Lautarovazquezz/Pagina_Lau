@@ -44,6 +44,13 @@
   color: rgb(99, 44, 44);
   font-size: 75px;
 }
+.reserva{
+  font-family: 'Blaka', cursive;
+  color: rgb(99, 44, 44);
+  font-size: 75px;
+  text-align: center;
+
+}
 .ul{
   list-style-type: none;
   font-size: 20px;
@@ -100,6 +107,12 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-style: solid; 
+}
+.formulario2{
+  margin: 01rem;
+  padding: 01rem;
+  background-color: #62ee8e;
   border-style: solid; 
 }
 
