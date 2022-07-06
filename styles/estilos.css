@@ -82,22 +82,6 @@
   justify-content: space-evenly;
 }
 
-/* barra de navegacion */
-.ini {
-  background-color: #62ee8e;
-  border-style: ridge;
-  color: rgb(0, 0, 0);
-  font-family: "Blaka", cursive;
-  font-size: 40px;
-  transition: 0.2s;
-}
-
-.ini:hover {
-  background-color: #62ee8e;
-  box-shadow: 0 0 10px #62ee8e, 0 0 40px #62ee8e, 0 0 80px #62ee8e;
-  color: rgba(80, 33, 33, 0.811);
-}
-
 /* inicio de la pagina */
 .pag {
   border-style: solid;
@@ -187,4 +171,37 @@
   grid-template-columns: 1fr;
   grid-template-areas: "header" "pag" "footer";
   grid-template-rows: auto;
+}
+
+.ini {
+  background-color: #62ee8e;
+  border-style: ridge;
+}
+
+.ini {
+  color: rgb(0, 0, 0);
+  font-family: "Blaka", cursive;
+  font-size: 40px;
+  transition: 0.2s;
+}
+
+.ini:hover {
+  background-color: #62ee8e;
+  box-shadow: 0 0 10px #62ee8e, 0 0 40px #62ee8e, 0 0 80px #62ee8e;
+  color: rgba(80, 33, 33, 0.811);
+}
+
+.sectio {
+  font-size: 30px;
+  font-family: "Blaka", cursive;
+  color: #000000;
+  text-align: center;
+  padding-bottom: 2rem;
+  margin: 1rem;
+  background-image: url(https://thumbs.dreamstime.com/b/vintage-paper-decorative-border-old-texture-background-105308931.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-style: solid;
 }/*# sourceMappingURL=estilos.css.map */
