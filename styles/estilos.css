@@ -124,30 +124,24 @@
   .titulo {
     font-size: 30px;
   }
-
   .ul {
     display: flex;
     flex-direction: column;
   }
-
   .pag {
     display: flex;
     flex-direction: column;
   }
-
   .section {
     display: grid;
     flex-direction: column;
   }
-
   .img {
     display: grid;
   }
-
   .gal {
     display: grid;
   }
-
   .about {
     display: grid;
   }
@@ -159,7 +153,7 @@
   padding: 1rem;
 }
 
-.TipoDeLetraYColor, .ini, .letras, .section, .pag {
+.ini, .letras, .section, .pag {
   color: rgb(0, 0, 0);
   font-family: "Blaka", cursive;
 }

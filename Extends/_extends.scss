@@ -1,22 +1,22 @@
-// aplicado a header
-.TipoDeLetraYColor {
+// aplicado a letras
+%TipoDeLetraYColor {
 color: rgb(0, 0, 0);
 font-family: 'Blaka', cursive;
 }
 
 .pag{
-    @extend .TipoDeLetraYColor;
+    @extend %TipoDeLetraYColor;
 }
 
 .section{
-    @extend .TipoDeLetraYColor;
+    @extend %TipoDeLetraYColor;
 }
 
 
 .letras{
-    @extend .TipoDeLetraYColor;
+    @extend %TipoDeLetraYColor;
 }
 
 .ini{
-    @extend .TipoDeLetraYColor;
+    @extend %TipoDeLetraYColor;
 }
