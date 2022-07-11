@@ -1,9 +1,12 @@
 
-@import "_header";  
-@import "_footer";
-@import "_galeria";
-@import "_cssantiguo";
-@import "_ini";
-@import "_extends";
-@import "_mixins";
-@import "_prueba";
+@import "./../componentes\ de\ la\ pagina/_header";  
+@import "./../componentes\ de\ la\ pagina/_footer";
+@import "./../Galeria/_galeria";
+@import "./../Contacto/_contacto";
+@import "./../Formulario/_formulario";
+@import "./../inicio/_inicio";
+@import "./../body/_grids";
+@import "./../Sobre\ Nosotros/_about";
+@import "./../Extends/_extends";
+@import "./../Mixins/_mixins";
+@import "./../Mixins/_pruebamixins";

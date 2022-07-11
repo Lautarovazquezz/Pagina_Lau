@@ -1,0 +1,37 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+      "header"
+      "pag"
+      "footer";
+      grid-template-rows:  auto;
+    
+    }
+    @media screen and (max-width: 768px){
+        .titulo{
+          font-size: 30px;
+      
+        }
+        .ul{
+        display: flex;
+        flex-direction: column;
+        }
+        .pag{
+        display: flex;
+        flex-direction: column;
+        }
+        .section{
+        display: grid;
+        flex-direction: column;
+        }
+        .img{
+        display: grid;
+        }
+        .gal{
+        display: grid;
+        }
+        .about{
+        display: grid;
+        }
+      }
