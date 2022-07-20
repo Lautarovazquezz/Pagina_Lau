@@ -189,6 +189,9 @@
     background-position-y: 0rem;
     display: grid;
   }
+  .footer {
+    background-position-y: 0rem;
+  }
 }
 @media screen and (max-width: 480px) {
   .titulo {
@@ -218,6 +221,9 @@
   .header {
     background-position-y: 0rem;
     display: grid;
+  }
+  .footer {
+    background-position-y: 0rem;
   }
 }
 .about {
