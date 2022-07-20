@@ -1,14 +1,24 @@
 .formulario2{
     margin: 01rem;
     padding: 01rem;
-    background-color: #62ee8e;
-    border-style: solid; 
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/042/228/726/4k/gareth-codling-01-bedroomdressing.jpg?1633949212);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-style: solid;
+    list-style-type: none;
+    border-style: solid;
+    border-color: white; 
   
   .reserva{
     font-family: 'Blaka', cursive;
-    color: rgb(99, 44, 44);
+    color: rgb(0, 0, 0);
     font-size: 75px;
     text-align: center;
   
+  }
+  .formu {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
   }
 }

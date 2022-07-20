@@ -1,11 +1,17 @@
 .footer{
-  
-    background-image: linear-gradient(to left, green, yellow);
+    background-image: url(https://images.alphacoders.com/902/902094.jpg);
+    background-position: center;
     padding: 05rem;
     margin: 01rem;
     text-align: center;
     justify-content: space-evenly;
     font-family: 'Blaka', cursive;
+    border-style: solid; 
+    border-color: white;
+    background-attachment: fixed;
+    background-position-y: 09rem;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-style: solid; 
     grid-area: footer;
     

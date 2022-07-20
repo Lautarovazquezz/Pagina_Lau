@@ -1,6 +1,7 @@
 .pag{
     border-style: solid; 
-    background-color: aqua;
+    border-color: white;
+    background-color: rgb(129, 129, 216);
     padding: 150px;
     margin: 01rem;
 
@@ -12,9 +13,15 @@
 
 
     .costadito{
+        font-family: Arial, Helvetica, sans-serif;
+        color:aliceblue;
         padding: 9.4rem;
         margin: 1.2rem;
-        background-color: aquamarine;
+        background-color: black;
+        background-image: url(https://wallpapers.com/images/high/sea-of-thieves-pier-at-night-eygrdc16a7v1nn9s.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
         border-style: solid;
         list-style-type: none;
       

@@ -32,7 +32,7 @@
 
 
     <nav class="ul"> 
-        <nav class="navbar navbar-expand-md bg-success" >
+        <nav class="navbar navbar-expand-md" style="background-color:rgb(129, 129, 216)" >
             <div class="container-fluid">
               <a class="navbar-brand" href="./../index.html"> Inicio🏠</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,7 +56,7 @@
                     <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Redes
                     </a>
-                    <ul class="dropdown-menu bg-success" aria-labelledby="navbarDropdown">
+                    <ul class="dropdown-menu " style="background-color:rgb(129, 129, 216)" aria-labelledby="navbarDropdown">
                       <li><a class="dropdown-item" href="https://www.facebook.com/profile.php?id=100034397017026"  target="_blank">Facebook</a></li>
                       <li><a class="dropdown-item" href="https://www.instagram.com/" target="_blank">Instagram</a></li>
                       <li><a class="dropdown-item" href="https://www.whatsapp.com/" target="_blank">Whatsapp</a></li>
@@ -76,15 +76,21 @@
         <h1 class="reserva"> Aca podes hacer tu reserva</h1>
             <form class="row g-3">
         <div class="col-md-12">
+          <div class="formu">
           <label for="inputEmail4" class="form-label">Nombre</label>
           <input type="name" class="form-control" id="inputEmail4">
         </div>
+        </div>
         <div class="col-md-12">
+          <div class="formu">
           <label for="inputPassword4" class="form-label">Apellido</label>
           <input type="name" class="form-control" id="inputPassword4">
         </div>
+        </div>
         <div class="col-md-6"> 
+          <div class="formu">
             <label type="tel" class="form-label">Dia</label>
+          </div>
 
             <select id="inputState" class="form-select">
                 <option selected>Seleccione su dia</option>
@@ -121,9 +127,10 @@
                 <option>31</option>        
             </select>  
         </div>
-
         <div class="col-md-6"> 
-            <label type="name" class="form-label">Mes</label>
+          <div class="formu">
+          <label type="name" class="form-label">Mes</label>
+          </div>
 
             <select id="inputState" class="form-select">
                 <option selected>Seleccione un mes</option>
@@ -146,10 +153,14 @@
 
             
         <div class="col-12">
+          
           <div class="form-check">
+            <div class="formu">
             <input class="form-check-input" type="checkbox" id="gridCheck">
-              Acepto los terminos y condiciones
-        </div>
+            <div class="formu"> 
+            Acepto los terminos y condiciones
+          </div>  
+      </div>
         <div class="col-12">
           <button type="submit" class="btn btn-primary">Enviar</button>
         </div>

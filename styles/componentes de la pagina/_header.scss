@@ -1,16 +1,23 @@
 .header{
-    background-color: #62ee8e;
-    padding: 10rem;
+    background-color: #319299;
+    padding: 06rem;
     margin: 01rem;
     text-align: center;
-    background-image: url(https://bloygo.yoigo.com/embed/fe49617b65bd6d5b6013ac0aa73a1a474727ba31570445357/2019-Septiembre-Fotos-SEO-piratas.jpg?imagick=1&size=1000);
+    background-image: url(https://d2ofqe7l47306o.cloudfront.net/games/1920x1080/sea-of-thieves-season-five-buried-treasures.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-style: solid; 
+    border-style: solid;
+    border-color: white;
+    background-position-y: -17rem;
     grid-area: header;
     
     .titulo{
         
      font-family: 'Blaka', cursive;
-     color: rgb(99, 44, 44);
+     color: rgb(0, 0, 0);
      font-size: 75px;
     }
     .ul{
