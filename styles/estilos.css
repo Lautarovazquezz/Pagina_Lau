@@ -4,14 +4,13 @@
   margin: 1rem;
   text-align: center;
   background-image: url(https://d2ofqe7l47306o.cloudfront.net/games/1920x1080/sea-of-thieves-season-five-buried-treasures.jpg);
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-style: solid;
   border-style: solid;
   border-color: white;
-  background-position-y: -17rem;
+  background-position-y: -20rem;
   grid-area: header;
 }
 .header .titulo {
@@ -36,8 +35,7 @@
   font-family: "Blaka", cursive;
   border-style: solid;
   border-color: white;
-  background-attachment: fixed;
-  background-position-y: 9rem;
+  background-position-y: -34rem;
   background-repeat: no-repeat;
   background-size: cover;
   border-style: solid;
@@ -54,9 +52,9 @@
   transition: 0.2s;
 }
 .footer .ul .ini:hover {
-  background-color: #62ee8e;
-  box-shadow: 0 0 10px #62ee8e, 0 0 40px #62ee8e, 0 0 80px #62ee8e;
-  color: rgba(80, 33, 33, 0.811);
+  background-color: #54bbf7;
+  box-shadow: 0 0 10px #54bbf7, 0 0 40px #54bbf7, 0 0 80px #54bbf7;
+  color: rgba(0, 0, 0, 0.811);
 }
 
 .fondo {
@@ -90,7 +88,6 @@
   padding-bottom: 2rem;
   margin: 1rem;
   background-image: url(https://thumbs.dreamstime.com/b/vintage-paper-decorative-border-old-exture-background-105308931.jpg);
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -186,6 +183,40 @@
     display: grid;
   }
   .about {
+    display: grid;
+  }
+  .header {
+    background-position-y: 0rem;
+    display: grid;
+  }
+}
+@media screen and (max-width: 480px) {
+  .titulo {
+    font-size: 5px;
+  }
+  .ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .pag {
+    display: flex;
+    flex-direction: column;
+  }
+  .section {
+    display: grid;
+    flex-direction: column;
+  }
+  .img {
+    display: grid;
+  }
+  .gal {
+    display: grid;
+  }
+  .about {
+    display: grid;
+  }
+  .header {
+    background-position-y: 0rem;
     display: grid;
   }
 }

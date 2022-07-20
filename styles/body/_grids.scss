@@ -37,4 +37,38 @@
         .about{
         display: grid;
         }
+        .header{
+          background-position-y: 0rem;
+          display: grid;
+        }
+}
+@media screen and (max-width: 480px){
+  .titulo{
+  font-size: 5px;
+  }
+  .ul{
+  display: flex;
+  flex-direction: column;
+  }
+  .pag{
+  display: flex;
+  flex-direction: column;
+  }
+  .section{
+  display: grid;
+  flex-direction: column;
+  }
+  .img{
+  display: grid;
+  }
+  .gal{
+  display: grid;
+  }
+  .about{
+  display: grid;
+  }
+  .header{
+    background-position-y: 0rem;
+    display: grid;
+  }
 }
