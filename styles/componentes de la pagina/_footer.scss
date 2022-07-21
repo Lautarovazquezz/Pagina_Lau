@@ -1,14 +1,13 @@
 .footer{
-    background-image: url(https://images.alphacoders.com/902/902094.jpg);
+    background-color: rgb(129, 129, 216);
     background-position: center;
-    padding: 05rem;
     margin: 01rem;
     text-align: center;
     justify-content: space-evenly;
     font-family: 'Blaka', cursive;
     border-style: solid; 
     border-color: white;
-    background-position-y: -34rem;
+    background-position-y: 0rem;
     background-repeat: no-repeat;
     background-size: cover;
     border-style: solid; 
@@ -18,8 +17,13 @@
         list-style-type: none;
         font-size: 20px;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: start;
         .ini {
+            border-style: solid;
+            padding: 5px;
+            margin: 5px;
+            text-decoration: none;
+            text-shadow: 0 0 10px white;
             font-size: 40px;
             transition: 0.2s;
             }
