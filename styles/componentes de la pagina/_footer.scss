@@ -15,7 +15,6 @@
     
     .ul{ 
         list-style-type: none;
-        font-size: 20px;
         display: flex;
         justify-content: start;
         .ini {
@@ -24,14 +23,14 @@
             margin: 5px;
             text-decoration: none;
             text-shadow: 0 0 10px white;
-            font-size: 40px;
+            font-size: 30px;
             transition: 0.2s;
             }
-            .ini:hover{
+                .ini:hover{
             background-color: #54bbf7;
             box-shadow: 0 0 10px #54bbf7, 0 0 40px #54bbf7, 0 0 80px #54bbf7;
             color: rgba(0, 0, 0, 0.811) 
             
-            }
-    } 
+                }
+        } 
 }
