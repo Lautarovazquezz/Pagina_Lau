@@ -1,38 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="pagina de salon de eventos al aire libe">
-    <meta name="keywords" content="fiesta, cumpleaños, eventos, aire libe, reservas">
-    <title>La casa del pirata</title>
+  <meta name="description" content="pagina de salon de eventos al aire libe">
+  <meta name="keywords" content="fiesta, cumpleaños, eventos, aire libe, reservas">
+  <title>La casa del pirata</title>
 
 
-    <link rel="stylesheet" type="text/css" href="./../styles/estilos.css">
+  <link rel="stylesheet" type="text/css" href="./../styles/estilos.css">
 
-<!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 
 <!-- cuerpo de la pagina -->
 
 <body class="grid">
 
-<!-- encabezado -->
+  <!-- encabezado -->
 
-    <header class="header">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Blaka&display=swap" rel="stylesheet">
+  <header class="header">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Blaka&display=swap" rel="stylesheet">
 
-<!-- barra de navegacion -->
-<nav class="ul"> 
-    <nav class="navbar navbar-expand-md" style="background-color:rgb(129, 129, 216)" >
+    <!-- barra de navegacion -->
+    <nav class="ul">
+      <nav class="navbar navbar-expand-md" style="background-color:rgb(129, 129, 216)">
         <div class="container-fluid">
           <a class="navbar-brand" href="./../index.html"> Inicio🏠</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -50,11 +54,13 @@
                 <a class="nav-link" href="./about.html">Sobre nosotros🙋‍♂️</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
                   Redes
                 </a>
-                <ul class="dropdown-menu"style="background-color:rgb(129, 129, 216)" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="https://www.facebook.com/profile.php?id=100034397017026"  target="_blank">Facebook</a></li>
+                <ul class="dropdown-menu" style="background-color:rgb(129, 129, 216)" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="https://www.facebook.com/profile.php?id=100034397017026"
+                      target="_blank">Facebook</a></li>
                   <li><a class="dropdown-item" href="https://www.instagram.com/" target="_blank">Instagram</a></li>
                   <li><a class="dropdown-item" href="https://www.whatsapp.com/" target="_blank">Whatsapp</a></li>
 
@@ -64,95 +70,96 @@
           </div>
         </div>
       </nav>
-    </header>
+  </header>
 
-<!-- formulario -->
+  <!-- formulario -->
 
-    <main>
+  <main>
     <section class="section">
-        <form>
+      <form>
         <nav class=>
-            <div>
-            <label for="Nombre" >
-                Nombre
+          <div>
+            <label for="Nombre">
+              Nombre
             </label>
             <br />
-            <input type="text" id="nombre" placeholder="Ingrese su nombre"/>
+            <input type="text" id="nombre" placeholder="Ingrese su nombre" />
             <br />
-            <label for="Apellido" >
-                Apellido
+            <label for="Apellido">
+              Apellido
             </label>
             <br />
             <input type="text" id="Apellido" placeholder="Ingrese su apellido" />
             <br />
-            <label for="Telefono" >
-            Telefono
+            <label for="Telefono">
+              Telefono
             </label>
             <br />
-            <input 
-            type="tel" id="telefono" placeholder="Ingrese su numero" maxlength="15"   />
+            <input type="tel" id="telefono" placeholder="Ingrese su numero" maxlength="15" />
             <br />
-            <label for="mail"  >
-                Email
+            <label for="mail">
+              Email
             </label>
             <br />
             <input type="email" id="mail" placeholder="Ingrese su Email" />
             <br />
-            <label  >
-                Localidad
+            <label>
+              Localidad
             </label>
             <br />
-            <select >
-                <option selected="selected">Seleccione su localidad </option>
-                <option> Arroyo seco</option>
-                <option> Rosario</option>
-                <option> Fighiera</option>
-                <option> General Lagos</option>
-                <option> Pueblo esther</option>
+            <select>
+              <option selected="selected">Seleccione su localidad </option>
+              <option> Arroyo seco</option>
+              <option> Rosario</option>
+              <option> Fighiera</option>
+              <option> General Lagos</option>
+              <option> Pueblo esther</option>
             </select>
             <br />
-        </div>
+          </div>
         </nav>
-            <label  >Ya has festejado tu cumpele con nosotros?
-            </label>
-            <br />
-            <span  >Si</span>
-            <input type="radio" name="opcion" value="si"  />
-            <span  >No</span>
-            <input type="radio" name="opcion" value="No"   />
-            <br />
-            <label  >
-                Acepta los terminos y condiciones
-            </label>
-            <br />
-            <span  >Si</span>
-            <input type="checkbox" name="aceptar"   />
-            <br />
-            <label for="comentarios"  >
-                Algun comentario extra?
-            </label>
-            <br />
-            <textarea id="comentarios" rows="10" cols="30"></textarea>
-            <br />
-            <input type="submit" />
-            <input type="reset" />
-            <h3> O tambien...</h3>
-            <ul>
-                <li> <a href="https://www.whatsapp.com/" target="_blank"> Nuestro numero de whatsapp</a></li>
-            </ul>
-            </form>
-        </section>
-    </main>
-
-<!-- pie de pagina -->
-
-        <footer class="footer">
-    <ul class="ul">
-        <li> <a href="./contact.html" class="ini"> contacto</a></li>
-        <li> <a href="https://www.google.com/maps" target="_blank" class="ini">Ubicacion</a>
-    </ul>
-</footer>
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-</body>
+        <label>Ya has festejado tu cumpele con nosotros?
+        </label>
+        <br />
+        <span>Si</span>
+        <input type="radio" name="opcion" value="si" />
+        <span>No</span>
+        <input type="radio" name="opcion" value="No" />
+        <br />
+        <label>
+          Acepta los terminos y condiciones
+        </label>
+        <br />
+        <span>Si</span>
+        <input type="checkbox" name="aceptar" />
+        <br />
+        <label for="comentarios">
+          Algun comentario extra?
+        </label>
+        <br />
+        <textarea id="comentarios" rows="10" cols="30"></textarea>
+        <br />
+        <input type="submit" />
+        <input type="reset" />
+        <h3> O tambien...</h3>
+        <ul>
+          <li> <a href="https://www.whatsapp.com/" target="_blank"> Nuestro numero de whatsapp</a></li>
+        </ul>
+      </form>
     </section>
+  </main>
+
+  <!-- pie de pagina -->
+
+  <footer class="footer">
+    <ul class="ul">
+      <li> <a href="./contact.html" class="ini"> contacto</a></li>
+      <li> <a href="https://www.google.com/maps" target="_blank" class="ini">Ubicacion</a>
+    </ul>
+  </footer>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+</section>
