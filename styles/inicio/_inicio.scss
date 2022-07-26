@@ -1,6 +1,6 @@
-.pag{
+.pag {
     text-shadow: 0 0 10px white;
-    border-style: solid; 
+    border-style: solid;
     border-color: white;
     background-color: rgb(129, 129, 216);
     padding: 16rem;
@@ -12,32 +12,31 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-style: solid; 
+    border-style: solid;
     border-style: solid;
     border-color: white;
     background-attachment: fixed;
 }
-  
-.costadito{
-        font-family: Arial, Helvetica, sans-serif;
-        color:rgb(255, 255, 255);
-        text-shadow: 0 0 10px rgb(0, 0, 0);
-        padding: 10rem;
-        margin: 1.2rem;
-        background-color: black;
-        background-image: url(https://i.pinimg.com/originals/00/00/09/0000098e550a530222d11e8a0ba0db70.gif);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        border-style: solid;
-        list-style-type: none;
-      
-            .about{
-                background-color: aqua;
-                margin: 01rem;
-                font-size: 30px;
-                border: solid;
-            }
+
+.costadito {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+    padding: 10rem;
+    margin: 1.2rem;
+    background-color: black;
+    background-image: url(https://i.pinimg.com/originals/00/00/09/0000098e550a530222d11e8a0ba0db70.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-style: solid;
+    list-style-type: none;
+
+    .about {
+        background-color: aqua;
+        margin: 01rem;
+        font-size: 30px;
+        border: solid;
+    }
 
 }
-

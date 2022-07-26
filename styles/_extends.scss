@@ -1,22 +1,22 @@
 // aplicado a letras
 %TipoDeLetraYColor {
-color: rgb(0, 0, 0);
-font-family: 'Blaka', cursive;
+    color: rgb(0, 0, 0);
+    font-family: 'Blaka', cursive;
 }
 
-.pag{
+.pag {
     @extend %TipoDeLetraYColor;
 }
 
-.section{
+.section {
     @extend %TipoDeLetraYColor;
 }
 
 
-.letras{
+.letras {
     @extend %TipoDeLetraYColor;
 }
 
-.ini{
+.ini {
     @extend %TipoDeLetraYColor;
 }
